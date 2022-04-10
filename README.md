@@ -4,18 +4,15 @@ Spring boot application to register and maintain cpryptocurrency data.
 This back end application works with the front end: https://github.com/AmonMcDuul/CryptoCurrency_CRUD_front_end_Angular
 
 Spring boot:
+
   Spring-web
   Spring-data
   H2
 
 POST /api/currencies        Create a new record
-
 GET /api/currencies/[id]    Get a single record
-
 GET /api/currencies         Get all records
-
 PUT /api/currencies/[id]    Update a record
-
 DELETE /api/currencies/[id] Delete a record
 
 
