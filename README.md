@@ -5,8 +5,8 @@ This back end application works with the front end: https://github.com/AmonMcDuu
 
 Spring boot:
 
-  Spring-web
-  Spring-data
+  Spring-web, 
+  Spring-data, 
   H2
 
 POST /api/currencies        Create a new record
