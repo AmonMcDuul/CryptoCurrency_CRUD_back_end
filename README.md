@@ -30,7 +30,5 @@ POSTMAN requests included in file tests.postman_collection.json
 
 
 
-
-![class diagram - cryptocurrency crud](https://user-images.githubusercontent.com/48800411/162636911-e2f5dd9c-1173-4e4f-870c-eb774262d4b3.png)
-
+![class diagram - cryptocurrency_crud](https://user-images.githubusercontent.com/48800411/162637371-bb0184f6-7fff-4907-adc3-5380acbd0c09.png)
 
