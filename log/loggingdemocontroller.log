@@ -1,0 +1,528 @@
+2022-04-10 20:17:26.669  INFO 19076 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 19076 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:17:26.685  INFO 19076 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:17:27.797  INFO 19076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:17:27.871  INFO 19076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:17:28.602  INFO 19076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:17:28.920  INFO 19076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:17:29.063  INFO 19076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:17:29.165  INFO 19076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:17:29.484  INFO 19076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:17:30.105  INFO 19076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:17:30.946  INFO 19076 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:17:30.961  INFO 19076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:17:31.709  WARN 19076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:17:32.633  INFO 19076 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:17:32.633  INFO 19076 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:17:32.633  INFO 19076 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:17:32.664  INFO 19076 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.56 seconds (JVM running for 8.381)
+2022-04-10 20:17:33.286  INFO 19076 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:17:33.286  INFO 19076 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:17:33.301  INFO 19076 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:17:33.317  INFO 19076 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:18:59.818  INFO 7592 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 7592 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:18:59.818  INFO 7592 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:19:00.837  INFO 7592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:19:00.948  INFO 7592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:19:01.630  INFO 7592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:19:01.933  INFO 7592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:19:02.023  INFO 7592 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:19:02.116  INFO 7592 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:19:02.419  INFO 7592 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:19:03.088  INFO 7592 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:19:03.907  INFO 7592 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:19:03.919  INFO 7592 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:19:04.685  WARN 7592 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:19:05.631  INFO 7592 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:19:05.631  INFO 7592 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:19:05.631  INFO 7592 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:19:05.665  INFO 7592 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.447 seconds (JVM running for 8.11)
+2022-04-10 20:19:06.085  INFO 7592 --- [main] c.c.crypto.crypto.CryptoController       : GET request: Returned one coin: Optional[Coin{id=1, coinName='Bitcoin', ticker='BTC', numberOfCoins=22, marketCap=30330}]
+2022-04-10 20:19:06.252  INFO 7592 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:19:06.252  INFO 7592 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:19:06.268  WARN 7592 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:19:06.268 ERROR 7592 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:19:06.268  WARN 7592 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:19:06.268 ERROR 7592 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:19:06.268  WARN 7592 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:19:06.268  INFO 7592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:19:06.268  INFO 7592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:19:49.456  INFO 1384 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 1384 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:19:49.456  INFO 1384 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:19:50.432  INFO 1384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:19:50.521  INFO 1384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:19:51.343  INFO 1384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:19:51.633  INFO 1384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:19:51.754  INFO 1384 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:19:51.865  INFO 1384 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:19:52.182  INFO 1384 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:19:52.788  INFO 1384 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:19:53.550  INFO 1384 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:19:53.566  INFO 1384 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:19:54.317  WARN 1384 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:19:55.237  INFO 1384 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:19:55.237  INFO 1384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:19:55.237  INFO 1384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:19:55.253  INFO 1384 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.379 seconds (JVM running for 8.051)
+2022-04-10 20:19:55.681  INFO 1384 --- [main] c.c.crypto.crypto.CryptoController       : GET request: Returned one coin: Optional[Coin{id=1, coinName='Bitcoin', ticker='BTC', numberOfCoins=22, marketCap=30330}]
+2022-04-10 20:19:55.832  INFO 1384 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:19:55.832  INFO 1384 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:19:55.832  WARN 1384 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:19:55.832 ERROR 1384 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:19:55.832  WARN 1384 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:19:55.832 ERROR 1384 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:19:55.832  WARN 1384 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:19:55.832  INFO 1384 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:19:55.847  INFO 1384 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:20:10.558  INFO 12784 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 12784 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:20:10.558  INFO 12784 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:20:11.592  INFO 12784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:20:11.666  INFO 12784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:20:12.366  INFO 12784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:20:12.691  INFO 12784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:20:12.778  INFO 12784 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:20:12.877  INFO 12784 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:20:13.175  INFO 12784 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:20:13.797  INFO 12784 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:20:14.609  INFO 12784 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:20:14.620  INFO 12784 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:20:15.347  WARN 12784 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:20:16.261  INFO 12784 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:20:16.261  INFO 12784 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:20:16.261  INFO 12784 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:20:16.277  INFO 12784 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.348 seconds (JVM running for 7.957)
+2022-04-10 20:20:16.705  INFO 12784 --- [main] c.c.crypto.crypto.CryptoController       : GET request: Returned one coin: Optional[Coin{id=1, coinName='Bitcoin', ticker='BTC', numberOfCoins=22, marketCap=30330}]
+2022-04-10 20:20:16.930  INFO 12784 --- [main] c.c.crypto.crypto.CryptoController       : POST request: Made one coin: Coin{id=4, coinName='null', ticker='sumCoin', numberOfCoins=null, marketCap=null}
+2022-04-10 20:20:17.066  INFO 12784 --- [main] c.c.crypto.crypto.CryptoController       : GET request: Returned all coins. parameters: page: 0 size: 10 sort: id
+2022-04-10 20:20:17.280  INFO 12784 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:20:17.280  INFO 12784 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:20:17.295  WARN 12784 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:20:17.295 ERROR 12784 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:20:17.295  WARN 12784 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:20:17.295 ERROR 12784 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:20:17.295  WARN 12784 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:20:17.295  INFO 12784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:20:17.295  INFO 12784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:21:52.260  INFO 2080 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 2080 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:21:52.262  INFO 2080 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:21:53.244  INFO 2080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:21:53.332  INFO 2080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:21:54.048  INFO 2080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:21:54.360  INFO 2080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:21:54.460  INFO 2080 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:21:54.546  INFO 2080 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:21:54.841  INFO 2080 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:21:55.510  INFO 2080 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:21:56.408  INFO 2080 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:21:56.424  INFO 2080 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:21:57.187  WARN 2080 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:21:58.080  INFO 2080 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:21:58.080  INFO 2080 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:21:58.080  INFO 2080 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:21:58.111  INFO 2080 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.408 seconds (JVM running for 8.036)
+2022-04-10 20:21:58.644  INFO 2080 --- [main] c.c.crypto.crypto.CryptoController       : POST request: Made one coin: Coin{id=4, coinName='TestCoin', ticker='TEST', numberOfCoins=123456, marketCap=987654321}
+2022-04-10 20:21:58.691  INFO 2080 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:21:58.706  INFO 2080 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:21:58.706  WARN 2080 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:21:58.706 ERROR 2080 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:21:58.706  WARN 2080 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:21:58.706 ERROR 2080 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:21:58.706  WARN 2080 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:21:58.706  INFO 2080 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:21:58.722  INFO 2080 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:31:28.207  INFO 15808 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 15808 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:31:28.207  INFO 15808 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:31:29.273  INFO 15808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:31:29.351  INFO 15808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:31:30.098  INFO 15808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:31:30.401  INFO 15808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:31:30.506  INFO 15808 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:31:30.599  INFO 15808 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:31:30.902  INFO 15808 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:31:31.536  INFO 15808 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:31:32.303  INFO 15808 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:31:32.303  INFO 15808 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:31:33.033  WARN 15808 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:31:33.987  INFO 15808 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:31:33.989  INFO 15808 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:31:33.989  INFO 15808 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:31:34.004  INFO 15808 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.357 seconds (JVM running for 7.996)
+2022-04-10 20:31:34.339  WARN 15808 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2022-04-10 20:31:34.386  INFO 15808 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:31:34.386  INFO 15808 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:31:34.401  INFO 15808 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:31:34.401  INFO 15808 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:34:29.955  INFO 13364 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 13364 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:34:29.955  INFO 13364 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:34:30.957  INFO 13364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:34:31.026  INFO 13364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:34:31.796  INFO 13364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:34:32.075  INFO 13364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:34:32.193  INFO 13364 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:34:32.294  INFO 13364 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:34:32.581  INFO 13364 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:34:33.243  INFO 13364 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:34:34.049  INFO 13364 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:34:34.061  INFO 13364 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:34:34.824  WARN 13364 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:34:35.718  INFO 13364 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:34:35.718  INFO 13364 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:34:35.718  INFO 13364 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:34:35.749  INFO 13364 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.33 seconds (JVM running for 7.868)
+2022-04-10 20:34:36.240  INFO 13364 --- [main] c.c.crypto.crypto.CryptoController       : POST request: Made one coin: Coin{id=4, coinName='TestCoin', ticker='TEST', numberOfCoins=123456, marketCap=987654321}
+2022-04-10 20:34:36.287  INFO 13364 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:34:36.287  INFO 13364 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:34:36.287  WARN 13364 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:34:36.287 ERROR 13364 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:34:36.287  WARN 13364 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:34:36.287 ERROR 13364 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:34:36.287  WARN 13364 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:34:36.287  INFO 13364 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:34:36.303  INFO 13364 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:34:43.954  INFO 1188 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 1188 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:34:43.954  INFO 1188 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:34:44.924  INFO 1188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:34:44.993  INFO 1188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:34:45.760  INFO 1188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:34:46.056  INFO 1188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:34:46.157  INFO 1188 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:34:46.303  INFO 1188 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:34:46.679  INFO 1188 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:34:47.315  INFO 1188 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:34:48.272  INFO 1188 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:34:48.288  INFO 1188 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:34:49.123  WARN 1188 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:34:50.056  INFO 1188 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:34:50.056  INFO 1188 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:34:50.056  INFO 1188 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:34:50.071  INFO 1188 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.682 seconds (JVM running for 8.286)
+2022-04-10 20:34:50.425  WARN 1188 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2022-04-10 20:34:50.484  INFO 1188 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:34:50.486  INFO 1188 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:34:50.498  INFO 1188 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:34:50.503  INFO 1188 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:35:24.590  INFO 5360 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 5360 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:35:24.590  INFO 5360 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:35:25.582  INFO 5360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:35:25.664  INFO 5360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:35:26.367  INFO 5360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:35:26.660  INFO 5360 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:35:26.776  INFO 5360 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:35:26.860  INFO 5360 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:35:27.157  INFO 5360 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:35:27.794  INFO 5360 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:35:28.581  INFO 5360 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:35:28.596  INFO 5360 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:35:29.337  WARN 5360 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:35:30.243  INFO 5360 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:35:30.243  INFO 5360 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:35:30.243  INFO 5360 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:35:30.275  INFO 5360 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.241 seconds (JVM running for 7.786)
+2022-04-10 20:35:30.683  INFO 5360 --- [main] c.c.crypto.crypto.CryptoController       : DELETE request: Deleted one coin: Optional[Coin{id=2, coinName='Loopring', ticker='LRC', numberOfCoins=314, marketCap=64352}]
+2022-04-10 20:35:30.783  INFO 5360 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:35:30.783  INFO 5360 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:35:30.783  WARN 5360 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:35:30.783 ERROR 5360 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:35:30.783  WARN 5360 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:35:30.783 ERROR 5360 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:35:30.783  WARN 5360 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:35:30.783  INFO 5360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:35:30.799  INFO 5360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:37:32.369  INFO 15404 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 15404 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:37:32.372  INFO 15404 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:37:33.386  INFO 15404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:37:33.451  INFO 15404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:37:34.169  INFO 15404 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:37:34.465  INFO 15404 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:37:34.571  INFO 15404 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:37:34.659  INFO 15404 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:37:34.956  INFO 15404 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:37:35.673  INFO 15404 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:37:36.571  INFO 15404 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:37:36.585  INFO 15404 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:37:37.316  WARN 15404 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:37:38.230  INFO 15404 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:37:38.230  INFO 15404 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:37:38.246  INFO 15404 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 16 ms
+2022-04-10 20:37:38.264  INFO 15404 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.484 seconds (JVM running for 8.076)
+2022-04-10 20:37:38.700  INFO 15404 --- [main] c.c.crypto.crypto.CryptoController       : DELETE request: Deleted one coin: Optional[Coin{id=2, coinName='Loopring', ticker='LRC', numberOfCoins=314, marketCap=64352}]
+2022-04-10 20:37:38.808  INFO 15404 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:37:38.824  INFO 15404 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:37:38.824  WARN 15404 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:37:38.824 ERROR 15404 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:37:38.824  WARN 15404 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:37:38.824 ERROR 15404 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:37:38.824  WARN 15404 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:37:38.831  INFO 15404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:37:38.836  INFO 15404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:38:04.277  INFO 8336 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 8336 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:38:04.277  INFO 8336 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:38:05.310  INFO 8336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:38:05.391  INFO 8336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:38:06.108  INFO 8336 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:38:06.423  INFO 8336 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:38:06.545  INFO 8336 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:38:06.626  INFO 8336 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:38:06.936  INFO 8336 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:38:07.543  INFO 8336 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:38:08.370  INFO 8336 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:38:08.380  INFO 8336 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:38:09.141  WARN 8336 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:38:10.076  INFO 8336 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:38:10.076  INFO 8336 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:38:10.078  INFO 8336 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-04-10 20:38:10.107  INFO 8336 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.399 seconds (JVM running for 8.072)
+2022-04-10 20:38:10.465  INFO 8336 --- [main] c.c.crypto.crypto.CryptoController       : DELETE request: Deleted one coin: Optional.empty
+2022-04-10 20:38:10.540  INFO 8336 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:38:10.540  INFO 8336 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:38:10.540  WARN 8336 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:38:10.540 ERROR 8336 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:38:10.540  WARN 8336 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:38:10.540 ERROR 8336 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:38:10.540  WARN 8336 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:38:10.540  INFO 8336 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:38:10.540  INFO 8336 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:39:18.418  INFO 14860 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 14860 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:39:18.420  INFO 14860 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:39:19.500  INFO 14860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:39:19.562  INFO 14860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:39:20.286  INFO 14860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:39:20.567  INFO 14860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:39:20.664  INFO 14860 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:39:20.764  INFO 14860 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:39:21.064  INFO 14860 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:39:21.695  INFO 14860 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:39:22.438  INFO 14860 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:39:22.449  INFO 14860 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:39:23.143  WARN 14860 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:39:24.032  INFO 14860 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:39:24.032  INFO 14860 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:39:24.036  INFO 14860 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2022-04-10 20:39:24.058  INFO 14860 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.189 seconds (JVM running for 7.754)
+2022-04-10 20:39:24.434  INFO 14860 --- [main] c.c.crypto.crypto.CryptoController       : DELETE request: Deleted one coin: Optional.empty
+2022-04-10 20:39:24.536  INFO 14860 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:39:24.538  INFO 14860 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:39:24.542  WARN 14860 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:39:24.542 ERROR 14860 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:39:24.543  WARN 14860 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:39:24.544 ERROR 14860 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:39:24.544  WARN 14860 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:39:24.545  INFO 14860 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:39:24.552  INFO 14860 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:41:43.768  INFO 8740 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 8740 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:41:43.768  INFO 8740 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:41:44.785  INFO 8740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:41:44.854  INFO 8740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:41:45.624  INFO 8740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:41:45.917  INFO 8740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:41:46.055  INFO 8740 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:41:46.155  INFO 8740 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:41:46.471  INFO 8740 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:41:47.088  INFO 8740 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:41:47.872  INFO 8740 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:41:47.884  INFO 8740 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:41:48.647  WARN 8740 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:41:49.561  INFO 8740 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:41:49.561  INFO 8740 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:41:49.561  INFO 8740 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:41:49.601  INFO 8740 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.387 seconds (JVM running for 7.967)
+2022-04-10 20:41:49.984  INFO 8740 --- [main] c.c.crypto.crypto.CryptoController       : DELETE request: Deleted one coin: Optional.empty
+2022-04-10 20:41:50.061  INFO 8740 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:41:50.061  INFO 8740 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:41:50.061  WARN 8740 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:41:50.061 ERROR 8740 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:41:50.061  WARN 8740 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:41:50.061 ERROR 8740 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:41:50.061  WARN 8740 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:41:50.061  INFO 8740 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:41:50.077  INFO 8740 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:42:12.842  INFO 19584 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 19584 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:42:12.842  INFO 19584 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:42:13.882  INFO 19584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:42:13.959  INFO 19584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:42:14.659  INFO 19584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:42:14.945  INFO 19584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:42:15.040  INFO 19584 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:42:15.130  INFO 19584 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:42:15.431  INFO 19584 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:42:16.068  INFO 19584 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:42:16.863  INFO 19584 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:42:16.870  INFO 19584 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:42:17.586  WARN 19584 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:42:18.523  INFO 19584 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:42:18.523  INFO 19584 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:42:18.523  INFO 19584 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:42:18.554  INFO 19584 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.278 seconds (JVM running for 7.843)
+2022-04-10 20:42:18.988  INFO 19584 --- [main] c.c.crypto.crypto.CryptoController       : DELETE request: Deleted one coin: Optional[Coin{id=2, coinName='Loopring', ticker='LRC', numberOfCoins=314, marketCap=64352}]
+2022-04-10 20:42:19.083  INFO 19584 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:42:19.093  INFO 19584 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:42:19.095  WARN 19584 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:42:19.095 ERROR 19584 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:42:19.095  WARN 19584 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:42:19.095 ERROR 19584 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:42:19.095  WARN 19584 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:42:19.095  INFO 19584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:42:19.105  INFO 19584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:43:58.663  INFO 12120 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 12120 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:43:58.679  INFO 12120 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:43:59.749  INFO 12120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:43:59.836  INFO 12120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:44:00.524  INFO 12120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:44:00.817  INFO 12120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:44:00.936  INFO 12120 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:44:01.024  INFO 12120 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:44:01.302  INFO 12120 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:44:01.978  INFO 12120 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:44:02.858  INFO 12120 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:44:02.868  INFO 12120 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:44:03.596  WARN 12120 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:44:04.536  INFO 12120 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:44:04.536  INFO 12120 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:44:04.536  INFO 12120 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:44:04.561  INFO 12120 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.433 seconds (JVM running for 8.006)
+2022-04-10 20:44:04.922  INFO 12120 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:44:04.922  INFO 12120 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:44:04.936  INFO 12120 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:44:04.936  INFO 12120 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:52:53.763  INFO 13172 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 13172 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:52:53.768  INFO 13172 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:52:54.886  INFO 13172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:52:54.973  INFO 13172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:52:55.710  INFO 13172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:52:56.013  INFO 13172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:52:56.125  INFO 13172 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:52:56.226  INFO 13172 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:52:56.556  INFO 13172 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:52:57.165  INFO 13172 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:52:57.942  INFO 13172 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:52:57.955  INFO 13172 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:52:58.718  WARN 13172 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:52:59.636  INFO 13172 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:52:59.636  INFO 13172 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:52:59.638  INFO 13172 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:52:59.658  INFO 13172 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.428 seconds (JVM running for 8.065)
+2022-04-10 20:53:00.005  WARN 13172 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: com.cryptocurrency.crypto.crypto.Crypto com.cryptocurrency.crypto.crypto.CryptoController.editCryptoCoin(com.cryptocurrency.crypto.crypto.Crypto,long)]
+2022-04-10 20:53:00.123  INFO 13172 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:53:00.123  INFO 13172 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:53:00.123  INFO 13172 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:53:00.139  INFO 13172 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:54:28.160  INFO 19920 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 19920 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:54:28.160  INFO 19920 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:54:29.179  INFO 19920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:54:29.236  INFO 19920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:54:30.040  INFO 19920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:54:30.338  INFO 19920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:54:30.464  INFO 19920 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:54:30.565  INFO 19920 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:54:30.909  INFO 19920 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:54:31.490  INFO 19920 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:54:32.312  INFO 19920 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:54:32.322  INFO 19920 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:54:33.049  WARN 19920 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:54:33.953  INFO 19920 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:54:33.953  INFO 19920 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:54:33.953  INFO 19920 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:54:33.981  INFO 19920 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.389 seconds (JVM running for 7.929)
+2022-04-10 20:54:34.332  WARN 19920 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: com.cryptocurrency.crypto.crypto.Crypto com.cryptocurrency.crypto.crypto.CryptoController.editCryptoCoin(com.cryptocurrency.crypto.crypto.Crypto,long)]
+2022-04-10 20:54:34.427  INFO 19920 --- [main] c.c.crypto.crypto.CryptoController       : GET request: Returned one coin: Optional[Coin{id=2, coinName='Loopring', ticker='LRC', numberOfCoins=314, marketCap=64352}]
+2022-04-10 20:54:34.594  INFO 19920 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:54:34.594  INFO 19920 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:54:34.594  WARN 19920 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:54:34.594 ERROR 19920 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:54:34.594  WARN 19920 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:54:34.594 ERROR 19920 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:54:34.594  WARN 19920 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:54:34.594  INFO 19920 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:54:34.594  INFO 19920 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:56:42.159  INFO 9936 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 9936 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:56:42.159  INFO 9936 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:56:43.131  INFO 9936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:56:43.202  INFO 9936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:56:43.921  INFO 9936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:56:44.203  INFO 9936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:56:44.293  INFO 9936 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:56:44.415  INFO 9936 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:56:44.725  INFO 9936 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:56:45.332  INFO 9936 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:56:46.184  INFO 9936 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:56:46.184  INFO 9936 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:56:46.915  WARN 9936 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:56:47.853  INFO 9936 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:56:47.853  INFO 9936 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:56:47.853  INFO 9936 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:56:47.875  INFO 9936 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.269 seconds (JVM running for 7.928)
+2022-04-10 20:56:48.391  INFO 9936 --- [main] c.c.crypto.crypto.CryptoController       : POST request: Made one coin: Coin{id=4, coinName='TestCoin', ticker='TEST', numberOfCoins=123456, marketCap=987654321}
+2022-04-10 20:56:48.450  INFO 9936 --- [main] c.c.crypto.crypto.CryptoController       : GET request: Returned all coins. parameters: page: 0 size: 10 sort: id
+2022-04-10 20:56:48.770  INFO 9936 --- [main] c.c.crypto.crypto.CryptoController       : DELETE request: Deleted one coin: Optional.empty
+2022-04-10 20:56:48.784  INFO 9936 --- [main] c.c.crypto.crypto.CryptoController       : GET request: Returned one coin: Optional[Coin{id=1, coinName='Bitcoin', ticker='BTC', numberOfCoins=22, marketCap=30330}]
+2022-04-10 20:56:48.884  INFO 9936 --- [main] c.c.crypto.crypto.CryptoController       : DELETE request: Deleted one coin: Optional[Coin{id=2, coinName='Loopring', ticker='LRC', numberOfCoins=314, marketCap=64352}]
+2022-04-10 20:56:48.915  INFO 9936 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:56:48.931  INFO 9936 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:56:48.938  WARN 9936 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:56:48.938 ERROR 9936 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:56:48.939  WARN 9936 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:56:48.939 ERROR 9936 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:56:48.940  WARN 9936 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:56:48.940  INFO 9936 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:56:48.948  INFO 9936 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:59:10.699  INFO 17944 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 17944 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:59:10.701  INFO 17944 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:59:11.665  INFO 17944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:59:11.747  INFO 17944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:59:12.458  INFO 17944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:59:12.736  INFO 17944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:59:12.835  INFO 17944 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:59:12.921  INFO 17944 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:59:13.221  INFO 17944 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:59:13.849  INFO 17944 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:59:14.674  INFO 17944 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:59:14.689  INFO 17944 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:59:15.435  WARN 17944 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:59:16.349  INFO 17944 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:59:16.349  INFO 17944 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:59:16.349  INFO 17944 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-04-10 20:59:16.372  INFO 17944 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.272 seconds (JVM running for 8.017)
+2022-04-10 20:59:16.866  INFO 17944 --- [main] c.c.crypto.crypto.CryptoController       : POST request: Made one coin: Coin{id=4, coinName='TestCoin', ticker='TEST', numberOfCoins=123456, marketCap=987654321}
+2022-04-10 20:59:16.923  INFO 17944 --- [main] c.c.crypto.crypto.CryptoController       : GET request: Returned all coins. parameters: page: 0 size: 10 sort: id
+2022-04-10 20:59:17.239  INFO 17944 --- [main] c.c.crypto.crypto.CryptoController       : DELETE request: Deleted one coin: Optional.empty
+2022-04-10 20:59:17.270  INFO 17944 --- [main] c.c.crypto.crypto.CryptoController       : GET request: Returned one coin: Optional[Coin{id=1, coinName='Bitcoin', ticker='BTC', numberOfCoins=22, marketCap=30330}]
+2022-04-10 20:59:17.359  INFO 17944 --- [main] c.c.crypto.crypto.CryptoController       : DELETE request: Deleted one coin: Optional[Coin{id=2, coinName='Loopring', ticker='LRC', numberOfCoins=314, marketCap=64352}]
+2022-04-10 20:59:17.384  INFO 17944 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:59:17.384  INFO 17944 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:59:17.384  WARN 17944 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:59:17.399 ERROR 17944 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:59:17.399  WARN 17944 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:59:17.399 ERROR 17944 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:59:17.399  WARN 17944 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:59:17.399  INFO 17944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:59:17.399  INFO 17944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-10 20:59:46.345  INFO 12628 --- [main] c.c.crypto.CryptoApiApplicationTests     : Starting CryptoApiApplicationTests using Java 13.0.1 on DESKTOP-2PG77ER with PID 12628 (started by Joran in C:\repos\pharmapartners\crypto)
+2022-04-10 20:59:46.345  INFO 12628 --- [main] c.c.crypto.CryptoApiApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 20:59:47.268  INFO 12628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 20:59:47.330  INFO 12628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2022-04-10 20:59:48.078  INFO 12628 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 20:59:48.401  INFO 12628 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 20:59:48.506  INFO 12628 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 20:59:48.586  INFO 12628 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 20:59:48.889  INFO 12628 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 20:59:49.503  INFO 12628 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 20:59:50.273  INFO 12628 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 20:59:50.288  INFO 12628 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:59:51.025  WARN 12628 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 20:59:51.980  INFO 12628 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-10 20:59:51.980  INFO 12628 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-10 20:59:51.982  INFO 12628 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-04-10 20:59:52.007  INFO 12628 --- [main] c.c.crypto.CryptoApiApplicationTests     : Started CryptoApiApplicationTests in 6.192 seconds (JVM running for 8.039)
+2022-04-10 20:59:52.519  INFO 12628 --- [main] c.c.crypto.crypto.CryptoController       : POST request: Made one coin: Coin{id=4, coinName='TestCoin', ticker='TEST', numberOfCoins=123456, marketCap=987654321}
+2022-04-10 20:59:52.572  INFO 12628 --- [main] c.c.crypto.crypto.CryptoController       : GET request: Returned all coins. parameters: page: 0 size: 10 sort: id
+2022-04-10 20:59:52.905  INFO 12628 --- [main] c.c.crypto.crypto.CryptoController       : DELETE request: Deleted one coin: Optional.empty
+2022-04-10 20:59:52.944  INFO 12628 --- [main] c.c.crypto.crypto.CryptoController       : GET request: Returned one coin: Optional[Coin{id=1, coinName='Bitcoin', ticker='BTC', numberOfCoins=22, marketCap=30330}]
+2022-04-10 20:59:53.048  INFO 12628 --- [main] c.c.crypto.crypto.CryptoController       : DELETE request: Deleted one coin: Optional[Coin{id=2, coinName='Loopring', ticker='LRC', numberOfCoins=314, marketCap=64352}]
+2022-04-10 20:59:53.072  INFO 12628 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 20:59:53.088  INFO 12628 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-10 20:59:53.088  WARN 12628 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:59:53.088 ERROR 12628 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:59:53.088  WARN 12628 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2022-04-10 20:59:53.088 ERROR 12628 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 20:59:53.088  WARN 12628 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2022-04-10 20:59:53.088  INFO 12628 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 20:59:53.088  INFO 12628 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
