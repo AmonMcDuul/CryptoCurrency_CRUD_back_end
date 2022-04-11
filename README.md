@@ -1,6 +1,6 @@
 # CryptoCurrency_CRUD_back_end_Spring_Boot
 
-Spring boot application to register and maintain cpryptocurrency data.
+Spring boot application to register and maintain cryptocurrency data.
 
 This back end application works with the front end: https://github.com/AmonMcDuul/CryptoCurrency_CRUD_front_end_Angular
 
